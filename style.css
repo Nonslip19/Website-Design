@@ -53,7 +53,7 @@ a:hover{
     justify-content: center;
     color: white;
     letter-spacing: 2px;
-    background-image: url(../img/showcase.jpg);
+    background-image: url(./img/showcase.jpg);
     background-position-y: center;
     background-size:cover;
     
