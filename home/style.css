@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 2px solid rgb(187, 3, 187);
+    background-color: #384045;
+}
+
+a:visited{
+    color: blue;
+}
+
+#header_title{
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar{
+    padding: 10px;
+}
+
+
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+a:hover{
+    background-color:#16181a ;
+}
+
+#a_home:visited{
+    color:rgb(187, 3, 187);
+}
+
+.main{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+    background-image: url(../img/showcase.jpg);
+    background-position-y: center;
+    background-size:cover;
+    
+}
+
+.main p{
+    margin: 2rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#subscribe{
+    background-color: #384045;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.2rem 1rem 1rem ;
+    
+}
+#email{
+    padding: 5px;
+    outline: none;
+}
+
+#subscribe_btn{
+    background-color: tomato;
+    color: white;
+    padding: 7px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.logo img{
+    width: 4rem;
+    
+}
+
+#footer{
+    background-color: #384045;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+#footer_logo img{
+    width: 13rem;
+}
+
+
+
+/* .navbar:first-child{
+    color: purple;
+    bunu niçin çalıştırmıyor
+} */
