@@ -46,7 +46,7 @@ a:hover{
 }
 
 .main{
-    height: 25rem;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,6 +89,7 @@ a:hover{
 #logos{
     display: flex;
     justify-content: space-evenly;
+    height: 20vh;
 }
 
 .logo{
