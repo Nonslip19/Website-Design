@@ -11,7 +11,7 @@ body{
 #header{
     display: flex;
     justify-content:space-between;
-    border-bottom: 2px solid rgb(187, 3, 187);
+    border-bottom: 2px solid rgb(229, 255, 0);
     background-color: #384045;
 }
 
@@ -38,7 +38,7 @@ a:hover{
 }
 
 #a_about:visited{
-    color:rgb(187, 3, 187);
+    color:rgb(229, 255, 0);
 }
 
 .articles{
@@ -100,9 +100,14 @@ a:hover{
     width: 100%;
     position: fixed;
     bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 #footer_logo img{
-    width: 13rem;
+    width: 5rem;
 }
 
 
@@ -113,7 +118,7 @@ a:hover{
     }
  
     #header_title{
-        border-bottom: 2px solid rgb(187, 3, 187);
+        border-bottom: 2px solid rgb(229, 255, 0);
     }
 
     #main{
@@ -128,7 +133,7 @@ a:hover{
     .articles{
         width: 95%;
         margin-left: 20px;
-        border-top: 2px solid rgba(187, 3, 187, 0.39);
+        border-top: 2px solid rgb(229, 255, 0);
         padding-top: 1rem;
     }
 }
